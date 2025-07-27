@@ -1,0 +1,40 @@
+allowLocalFiles: true
+author: George Westwater
+title: Architecture as a Discipline - What is Architecture?
+description: |
+   This session introduces the concept of software architecture—not as abstract diagrams or job titles, 
+   but as the strategic discipline of structuring systems to endure, evolve, and scale. We'll clarify what architecture is (and isn't), 
+   how it differs from design and implementation, and why it plays a foundational role in business agility, system resilience, and team alignment. 
+   By the end of this session, participants will understand architecture as a set of decisions that shape the long-term trajectory of both technology and the organization.
+keywords:
+- Software Architecture
+- System Design
+- Architectural Decisions
+- Technical Strategy
+- Scalability
+- Maintainability
+- System Evolution
+- Design vs. Architecture
+- Architecture Principles
+- Enduring Systems
+- Business Agility
+- Technology Alignment
+- Strategic Trade-offs
+- Technical Debt
+- Architecture as Discipline
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../theme.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL

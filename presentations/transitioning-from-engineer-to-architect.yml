@@ -1,0 +1,47 @@
+allowLocalFiles: true
+author: George Westwater
+title: Architecture as a Discipline - What is Architecture?
+description: |
+  Becoming a software architect is not a linear promotion—it's a transformation in how you think, communicate, and lead. 
+  This session explores the shift from engineer to architect by examining the mental models, mindset shifts, and core behaviors 
+  that define effective architecture practice. You'll learn how to recognize when you've crossed the architectural inflection point, 
+  how to expand your lens from code to context, and how to grow your influence without formal authority. We'll cover actionable steps for 
+  building architectural skills and avoiding common pitfalls—equipping you to lead systems, not just features. This is the foundational 
+  session for any engineer looking to grow into architecture with confidence and clarity.
+keywords:
+- Software Architecture
+- Career Growth
+- Engineering Leadership
+- Mindset Shift
+- System Thinking
+- Influence Without Authority
+- Technical Strategy
+- Architecture Decision Records (ADRs)
+- Cross-Team Collaboration
+- Communication Skills
+- Tradeoffs
+- Design Facilitation
+- Abstraction
+- Technical Judgment
+- Trust and Delegation
+- Sustainability
+- Mentorship
+- Role Transition
+- Context Awareness
+- Long-Term Thinking
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../theme.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL

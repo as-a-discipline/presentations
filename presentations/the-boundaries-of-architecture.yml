@@ -1,0 +1,44 @@
+allowLocalFiles: true
+author: George Westwater
+title: Architecture as a Discipline - The Boundaries of Architecture
+description: |
+  The Boundaries of Architecture defines where architecture begins, where it ends, and why those boundaries matter. 
+  This session helps architects and engineering leaders avoid the common pitfalls of overreach—where architecture becomes a bottleneck—and 
+  underreach—where architecture becomes irrelevant. Through clear examples, it outlines what responsibilities belong to architecture, what should be left to teams, 
+  and how to strike the right balance. Participants will learn how to create architectural guardrails that empower rather than constrain, how to use decision records 
+  and coaching to scale architectural thinking, and how to spot anti-patterns like the "Architect-as-Overlord" or the "Absent Architect." The goal is to create clarity,
+  trust, and flow—so teams can move fast without creating long-term risk.
+
+keywords:
+- Architecture Boundaries
+- Scope of Architecture
+- Architectural Ownership
+- System Integration Points
+- Overreach and Underreach
+- Empowered Teams
+- Architectural Guardrails
+- Architecture Decision Records (ADRs)
+- Systemic Risk
+- Role Clarity
+- Boundary Stewardship
+- Architectural Enablement
+- Technical Governance
+- Cross-Team Alignment
+- Anti-Patterns in Architecture
+- Decision Making at Scale
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../theme.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL

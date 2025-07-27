@@ -1,0 +1,41 @@
+allowLocalFiles: true
+author: George Westwater
+title: Architecture as a Discipline - The Role of the Architect
+description: |
+  The Role of the Architect explores what it truly means to be a software architect in a modern, adaptive organization. 
+  This session defines the architect not by title, but by function—guiding critical decisions, enabling delivery, mentoring teams, 
+  and stewarding systems over time. Participants will gain a clear understanding of how architects influence without authority, balance strategic 
+  foresight with pragmatic execution, and elevate team capabilities through clarity, consistency, and care. The talk breaks down the four key functions 
+  of architecture—decision-making, facilitation, education, and risk mitigation—and highlights common anti-patterns to avoid.
+keywords:
+- Software Architect
+- Architecture Role
+- Decision-Making
+- System Stewardship
+- Technical Leadership
+- Influencing Without Authority
+- Risk Mitigation
+- Architectural Facilitation
+- Mentoring and Enablement
+- Architecture Anti-Patterns
+- Design Culture
+- Architecture Decision Records (ADRs)
+- System Coherence
+- Organizational Alignment
+- Technical Strategy
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../theme.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL
