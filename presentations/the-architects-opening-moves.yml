@@ -1,0 +1,35 @@
+allowLocalFiles: true
+author: George Westwater
+title: Thinking Like an Architect - The Architect's Opening Moves
+description: |
+  This session explores the mindset and early moves of a software architect. Rather than jumping into technology or tooling, 
+  good architecture starts with context, ambiguity, and thoughtful framing. Participants will learn how to approach architectural 
+  problems by clarifying uncertainty, uncovering complexity, and reframing the problem before proposing a solution. These skills are 
+  essential to building resilient, adaptable systems.
+keywords:
+- Software Architecture
+- System Thinking
+- Architecture Mindset
+- Requirements Analysis
+- Use Case Discovery
+- Design Heuristics
+- Complexity Management
+- Mental Models
+- Problem Framing
+- Stakeholder Alignment
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../.theme/default.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL

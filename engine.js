@@ -7,7 +7,7 @@ module.exports = (opts) => {
     return new Marp(opts)
         .use(markdownItMark)
         .use(markdownItInclude, {
-                //root: "presentations",
+                root: "slides",
                 //root: opts.root || process.cwd(), // Default to current working directory
                 bracesAreOptional: false, // Optional: if you want to allow includes without braces
                 includeRe: /\!{3}\s*include(.+?)\!{3}/i

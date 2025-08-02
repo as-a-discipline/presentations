@@ -1,0 +1,149 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+:root {
+  --color-background: #F9FAFB;
+  --color-foreground: #111827;
+  --color-accent: #1B4CE0;
+  --color-muted: #6B7280;
+  --color-border: #E5E7EB;
+  --font-main: Inter, Segoe UI, Helvetica Neue, sans-serif;
+  --font-size: 1.2em;
+  --heading-weight: 700;
+  --text-weight: 400;
+  --border-radius: 0.5rem;
+  --padding: 2rem;
+}
+
+section {
+  background-color: #F9FAFB;
+  color: #111827;
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+section h1, section h2, section h3, section h4 {
+  color: #111827;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+section h1 {
+  font-size: 2.5em;
+  border-bottom: 4px solid #1B4CE0;
+  padding-bottom: 0.3em;
+}
+section h2 {
+  font-size: 1.8em;
+  color: #1B4CE0;
+}
+section h3 {
+  font-size: 1.5em;
+}
+section p, section ul, section ol {
+  color: #111827;
+  font-weight: 400;
+  line-height: 1.6;
+}
+section a {
+  color: #1B4CE0;
+  text-decoration: none;
+  font-weight: 500;
+}
+section blockquote {
+  border-left: 4px solid #1B4CE0;
+  margin: 1em 0;
+  padding-left: 1em;
+  color: #6B7280;
+  font-style: italic;
+}
+section code {
+  background-color: #E5E7EB;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+}
+section table {
+  margin-top: 40px;
+  border: 0;
+  font-size: 24px;
+}
+section table th {
+  background-color: #e5e7eb;
+  color: #111827;
+  border: 1;
+  border-top: #1B4CE0 solid 2px;
+  text-align: left;
+}
+section table td {
+  border: 0;
+  padding-right: 30px;
+}
+section table tr:nth-child(2) {
+  background-color: #c4c6c6;
+}
+section table tr:last-child {
+  border-bottom: #1B4CE0 solid 1px;
+}
+section:where(.lead) {
+  place-content: safe center center;
+  /* Definitions for classic bhavior: Users can adopt flex centering by tweaking style `section.lead { display: flex }` */
+  flex-flow: column nowrap;
+  align-items: stretch;
+  /* stylelint-disable-next-line no-descending-specificity */
+}
+section:where(.lead) h1,
+section:where(.lead) h2,
+section:where(.lead) h3,
+section:where(.lead) h4,
+section:where(.lead) h5,
+section:where(.lead) h6 {
+  text-align: center;
+  border: none;
+}
+section:where(.lead) p {
+  text-align: center;
+}
+section:where(.lead) blockquote > h1,
+section:where(.lead) blockquote > h2,
+section:where(.lead) blockquote > h3,
+section:where(.lead) blockquote > h4,
+section:where(.lead) blockquote > h5,
+section:where(.lead) blockquote > h6,
+section:where(.lead) blockquote > p {
+  text-align: left;
+}
+section:where(.lead) ul > li > p,
+section:where(.lead) ol > li > p {
+  text-align: left;
+}
+section:where(.lead) table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f4f6 !important;
+}
+
+tr:hover {
+  color: #1B4CE0 !important;
+  background-color: #e0e7ff !important;
+  font-weight: bold !important;
+}
+
+div.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+div.column {
+  flex: 1;
+  padding: 20px;
+}
+
+div.right {
+  text-align: right;
+}
+
+/*# sourceMappingURL=default.css.map */

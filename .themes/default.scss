@@ -1,0 +1,205 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+// Theme variables
+$color-background: #F9FAFB;
+$color-foreground: #111827;
+$color-accent: #1B4CE0;
+$color-muted: #6B7280;
+$color-border: #E5E7EB;
+
+$font-main: 'Inter', 'Segoe UI', 'Helvetica Neue', sans-serif;
+$font-size: 1.2em;
+$heading-weight: 700;
+$text-weight: 400;
+
+$border-radius: 0.5rem;
+$padding: 2rem;
+
+// Table variables (add values as needed for Marp)
+$table-header-color: #e5e7eb;
+$table-header-font-color: #111827;
+$table-border-top: #1B4CE0;
+$table-border-bottom: #1B4CE0;
+$table-nth-child-color: #f3f4f6;
+$table-hover-color: #1B4CE0;
+$table-hover-background-color: #e0e7ff;
+
+:root {
+  // For Marp compatibility, you may want to export variables as CSS custom properties too
+  --color-background: #{$color-background};
+  --color-foreground: #{$color-foreground};
+  --color-accent: #{$color-accent};
+  --color-muted: #{$color-muted};
+  --color-border: #{$color-border};
+  --font-main: #{$font-main};
+  --font-size: #{$font-size};
+  --heading-weight: #{$heading-weight};
+  --text-weight: #{$text-weight};
+  --border-radius: #{$border-radius};
+  --padding: #{$padding};
+}
+
+section {
+  background-color: $color-background;
+  color: $color-foreground;
+  font-family: $font-main;
+  font-size: $font-size;
+  padding: $padding;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+
+  h1, h2, h3, h4 {
+    color: $color-foreground;
+    font-weight: $heading-weight;
+    margin-bottom: 0.5em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    border-bottom: 4px solid $color-accent;
+    padding-bottom: 0.3em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    color: $color-accent;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p, ul, ol {
+    color: $color-foreground;
+    font-weight: $text-weight;
+    line-height: 1.6;
+  }
+
+  a {
+    color: $color-accent;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  blockquote {
+    border-left: 4px solid $color-accent;
+    margin: 1em 0;
+    padding-left: 1em;
+    color: $color-muted;
+    font-style: italic;
+  }
+
+  code {
+    background-color: $color-border;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+  }
+
+  // Table styles
+  table {
+    margin-top: 40px;
+    border: 0;
+    font-size: 24px;
+
+    th {
+      background-color: $table-header-color;
+      color: $table-header-font-color;
+      border: 1;
+      border-top: $table-border-top solid 2px;
+      text-align: left;
+    }
+
+    td {
+      border: 0;
+      padding-right: 30px;
+    }
+
+    tr:nth-child(2) {
+      background-color: #c4c6c6;
+    }
+
+    tr:last-child {
+      border-bottom: $table-border-bottom solid 1px;
+    }
+  }
+
+
+
+  &:where(.lead) {
+    place-content: safe center center;
+
+    /* Definitions for classic bhavior: Users can adopt flex centering by tweaking style `section.lead { display: flex }` */
+    flex-flow: column nowrap;
+    align-items: stretch;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        border: none
+    }
+
+    /* stylelint-disable-next-line no-descending-specificity */
+    p {
+      text-align: center;
+    }
+
+    blockquote {
+      > h1,
+      > h2,
+      > h3,
+      > h4,
+      > h5,
+      > h6,
+      > p {
+        text-align: left;
+      }
+    }
+
+    ul,
+    ol {
+      > li > p {
+        text-align: left;
+      }
+    }
+
+    table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+
+}
+
+// Table row styles outside section
+tr:nth-child(even) {
+  background-color: $table-nth-child-color !important;
+}
+
+tr:hover {
+  color: $table-hover-color !important;
+  background-color: $table-hover-background-color !important;
+  font-weight: bold !important;
+}
+
+// Flexbox container and columns
+div.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+div.column {
+  flex: 1;
+  padding: 20px;
+}
+
+div.right {
+  text-align: right;
+}
+

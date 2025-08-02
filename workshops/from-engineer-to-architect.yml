@@ -1,0 +1,56 @@
+allowLocalFiles: true
+author: George Westwater
+title: Architecture as a Discipline - What is Architecture?
+description: |
+  Moving from software developer to architect requires a shift in mindset and skills. In this 8-hour workshop, you'll learn how to decompose complex requirements, 
+  diagram systems at different altitudes, and understand which modeling languages are most effective for communicating architectural decisions. We'll also 
+  cover how to assess and de-risk projects with strategic foresight.
+  
+  The first portion of the workshop will feature lecture-style learning through real-world examples, introducing core concepts in architectural thinking. 
+  In the second portion, we'll dive into Architectural Katas—a proven method for practicing and refining architectural skills. Participants will engage in 
+  a short kata exercise, then pair up for peer review, fostering a collaborative learning environment. This workshop is designed for experienced developers aiming 
+  to expand their influence and impact as solution architects or tech leads. You'll leave with practical techniques, hands-on experience, and the confidence to 
+  think and lead like an architect.
+
+keywords:
+- Software Architecture
+- Architectural Thinking
+- Developer to Architect Transition
+- System Decomposition
+- Modeling Languages
+- Architecture Diagrams
+- Architectural Decisions
+- Strategic Foresight
+- Design Trade-offs
+- Systems Thinking
+- Communication of Architecture
+- Architectural Katas
+- Peer Review
+- Technical Leadership
+- Solution Architecture
+- Mental Models
+- Complexity Management
+- Architecture Workshops
+- Reflective Practice
+- Design Heuristics
+- Cross-functional Collaboration
+- Diagramming Techniques
+- Architecture Patterns
+- Technical Risk Assessment
+- Stakeholder Alignment
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../.themes/default.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL
