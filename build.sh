@@ -9,8 +9,9 @@ find . \( -type d -name "node_modules" -o -type d -name "out" \) -prune -o -type
 
 make build FILE=what-is-architecture TYPE=presentations
 make build FILE=the-role-of-the-architect TYPE=presentations
-make build FILE=the-boundaries-of-architecture TYPE=presentations
-make build FILE=thinking-like-an-architect TYPE=presentations
+
+#make build FILE=the-boundaries-of-architecture TYPE=presentations
+#make build FILE=thinking-like-an-architect TYPE=presentations
 #make build FILE=transitioning-from-engineer-to-architect TYPE=presentations
 
 make build TYPE=workshops FILE=from-engineer-to-architect 

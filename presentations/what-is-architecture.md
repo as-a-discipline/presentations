@@ -5,7 +5,6 @@ paginate: true
 
 <!-- _class: lead -->
 
-# SECTION
 # What is Software Architecture?
 
 

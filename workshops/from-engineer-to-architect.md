@@ -32,46 +32,13 @@ This workshop is designed for experienced developers aiming to expand their infl
 # Workshop Agenda
 
 1. **What is Software Architecture?**
-<!--
- What is Software Architecture?
-Understanding architecture as a discipline of decisions and structure 
--->
-
 2. **The Role of the Architect**
-<!--
-The Role of the Architect
-Beyond tech lead—enabling clarity, alignment, and adaptability 
--->
-
-3. **Understanding the Problem**
-<!-- 
-Understanding the Problem
-Disambiguating uncertainty and surfacing hidden complexity  
--->
-
-4. **Architectural Thinking Tools**
-<!-- 
-Architectural Thinking Tools
-Models, mental frameworks, and heuristics  
--->
-
-5. **Communicating Architecture**
-<!-- 
-Communicating Architecture
-Telling the story and getting buy-in across teams  
--->
-
-6. **Architectural Katas**
-<!-- 
-Architectural Katas
-Hands-on practice: define, collaborate, reflect  
--->
-
-7. **Feedback & Growth**
-<!-- 
-Feedback & Growth
-Learning loops, reflective practice, and evolving your craft  
--->
+3. Thinking Like an Architect
+4. **Training The Architect’s Mindset**
+5. **Understanding the Problem**
+6. **Communicating Architecture**
+7. **Architectural Katas**
+8. **Feedback & Growth**
 
 ---
 
@@ -165,22 +132,69 @@ Ask the room: What does architecture mean to you?
 # SECTION #2
 # The Role of the Architect
 
+<!-- presenter notes
+Ask: What does 'architect' mean in your organization? Set expectations that we’ll break down what architects actually do—and what makes the role indispensable in modern, adaptive enterprises.
 
-<!-- 
-This is the section introduction slide to topic. Reinforce the title: with something like 'Defining Software Architecture.' 
-Set the stage by telling participants that the definition of architecture is more nuanced and layered than most people think. 
-Encourage attendees to think beyond just diagrams or system components. 
+The architect’s role is often misunderstood, frequently conflated with that of a technical lead, a systems designer, or a project manager. Yet, in modern enterprises particularly those striving to be adaptive the architect holds a distinct and essential position.
 -->
 
-<!-- 
-Ask the room: What does architecture mean to you? 
+---
+!!!include(architecture/defining-the-role.md)!!!
+
+---
+!!!include(architecture/influence-without-authority.md)!!!
+
+---
+!!!include(architecture/decision-making-responsibilities.md)!!!
+
+---
+!!!include(architecture/stewardship-over-time.md)!!!
+
+---
+!!!include(architecture/owning-the-outcomes.md)!!!
+
+---
+!!!include(architecture/architect-as-educator.md)!!!
+
+---
+!!!include(architecture/growing-architects.md)!!!
+
+---
+!!!include(architecture/role-anti-patterns.md)!!!
+
+---
+!!!include(architecture/design-vs-implementation.md)!!!
+
+
+---
+
+<!-- _class: lead -->
+
+# SECTION #3
+# Thinking like an architect
+
+<!-- presenter notes
+This slide transitions from the external outputs of architecture to the internal discipline of architectural thinking.  
+
+Ask the group: What does it *feel* like to think like an architect? Is it about knowing more—or seeing differently?
+
+This is the bridge from practice to perspectiv
 -->
 
+---
+!!!include(architecture/thinking-like-an-architect.md)!!!
 
+---
+!!!include(architecture/embracing-ambiguity.md)!!!
 
+---
+!!!include(architecture/uncovering-hidden-complexity.md)!!!
 
+---
+!!!include(architecture/mental-models.md)!!!
 
-
+---
+!!!include(architecture/systems-thinking.md)!!!
 
 
 
@@ -192,3 +206,4 @@ Ask the room: What does architecture mean to you?
 
 ---
 !!!include(common/thank-you.md)!!!
+
