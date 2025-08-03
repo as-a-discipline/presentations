@@ -1690,6 +1690,9 @@ section:where(.lead) table {
   margin-left: auto;
   margin-right: auto;
 }
+section:where(.small) {
+  font-size: 1em;
+}
 
 tr:nth-child(even) {
   background-color: #f3f4f6 !important;
