@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to www.asadiscipline.com</title>
+  <!-- Meta refresh -->
+  <meta http-equiv="refresh" content="0; url=https://www.asadiscipline.com/presentations">
+  <script>
+    // JavaScript redirect (window.location)
+    window.location.replace("https://www.asadiscipline.com/presentations");
+    // Fallback with setTimeout
+    setTimeout(function() {
+      window.location.href = "https://www.asadiscipline.com/presentations";
+    }, 1000);
+  </script>
+</head>
+<body>
+  <noscript>
+    <!-- If JS is disabled, meta refresh should work, but provide a link just in case -->
+    <p>If you are not redirected automatically, <a href="https://www.asadiscipline.com/presentations">click here to go to the As a Discipline presentation index</a>.</p>
+  </noscript>
+  <p>If you are not redirected automatically, <a href="https://www.asadiscipline.com/presentations">click here to go to As a Discipline presentation index</a>.</p>
+  <iframe src="https://www.asadiscipline.com/presentations" style="display:none;"></iframe>
+  <img src="https://www.asadiscipline.com/favicon.ico" style="display:none;" onerror="window.location='https://www.asadiscipline.com/presentations'">
+</body>
+</html>

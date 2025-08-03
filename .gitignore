@@ -1,8 +1,6 @@
 out/
 node_modules/
 dist/
-*.pdf
-*.html
 .env
 .cache/
 .server.pid
