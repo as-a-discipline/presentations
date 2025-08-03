@@ -37,9 +37,9 @@ This workshop is designed for experienced developers aiming to expand their infl
 4. **Training The Architect’s Mindset**   ⏱️60-90
 5. **Architectual Artifacts**             ⏱️30
 5. **Contract Design**                    ⏱️30                   
-7. **Architectural Katas**
-8. **Kata Lab**
-9. **Wrapping up**
+7. **Architectural Katas**                ⏱️30
+8. **Kata Lab**                           ⏱️120-240
+9. **Wrapping Up**                        ⏱️15
 
 ---
 
@@ -145,8 +145,38 @@ This is the bridge from practice to perspectiv
 !!!include(architecture/contracts/_workshop.md)!!!
 
 
+---
+<!-- _class: lead -->
+
+# SECTION #7
+# Architectural Katas
+## ⏱️ 30 minutes 
+
+---
+!!!include(architecture/katas/_workshop.md)!!!
 
 
+
+---
+<!-- _class: lead -->
+
+# SECTION #8
+# Kata Lab
+## ⏱️ 120-240 minutes 
+
+---
+<!-- This page is intentionally left blank as a reminder to change tools. -->
+
+
+---
+<!-- _class: lead -->
+
+# SECTION #9
+# Wrapping Up
+## ⏱️ 15 minutes 
+
+---
+<!-- This page is intentionally left; we may choose to add content here in the future --> 
 
 
 ---
