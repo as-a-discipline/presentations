@@ -38,6 +38,12 @@
 ---
 !!!include(./thinking-decision-making.md)!!!
 
+---
+!!!include(./thinking-decision-making-2.md)!!!
+
+---
+!!!include(./thinking-decision-making-3.md)!!!
+
 
 ---
 !!!include(./thinking-decision-making-training.md)!!!
@@ -60,10 +66,10 @@
 
 
 ---
-!!!include(./thinking-temporal-training.md)!!!
+!!!include(./thinking-temporal.md)!!!
 
 ---
-!!!include(./thinking-temporal.md)!!!
+!!!include(./thinking-temporal-training.md)!!!
 
 
 ---

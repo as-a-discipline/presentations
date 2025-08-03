@@ -1,49 +1,44 @@
-# ⏳ Temporal Branching & Scenario Foresight
+# ⏳ Temporal Branching
 
-Good architecture doesn’t just work now—it survives the future.  
-These exercises train architects to design for time, not just space.
-
----
-
-### 🌿 Future Paths Mapping
-
-- **Pick a current or recent architectural decision.**  
-Write three branching futures:
-  - What if adoption grows 10x?
-  - What if usage stalls?
-  - What if external conditions (e.g., vendor, compliance, org) shift?
-**🧠 Speaker Note:** This builds conditional thinking—pushing the architect to see beyond the happy path and prepare for whiplash, stagnation, or surprise growth.
-
-- **Label which paths are reversible, which are costly, and which open new opportunities.**
-**🧠 Speaker Note:** Optionality is your friend. Highlight decisions that lock you in versus ones that give you “pivot power.”
+<!-- 
+Architectural decisions are rarely one-dimensional. What seems like a small choice in the present may become a constraint, a catalyst, or a liability in the future. 
+This section builds the mental model of scenario foresight—enabling architects to design not just for now, but for many possible futures.
+-->
 
 ---
 
-### 🕰️ Edge Case Horizon Exercise
+# ⏳ Temporal Branching
 
-- **List today’s edge cases.**  
-E.g., rarely used APIs, unsupported integrations, one-off configurations.
-**🧠 Speaker Note:** Many architectural failures stem from dismissing these. Ask: what happens if these edge cases become common?
-
-- **For each, ask: what would need to change to make this mainstream?**
-**🧠 Speaker Note:** The goal isn’t to over-engineer for every anomaly—it’s to know when and how to respond if anomalies shift into trends.
+- Architecture exists in motion, not in snapshots  
+<!-- Speaker note: Introduce the idea that architecture must operate across time—not just space. We don’t control the future, but we can design for its uncertainty. -->
 
 ---
 
-### 📊 Non-Technical: Trend Replay Challenge
+# ⏳ Temporal Branching
 
-- **Pick a past industry trend (e.g., containerization, GDPR, AI tooling).**
-Write two short stories:
-  - What happened to teams who bet early?
-  - What happened to those who waited?
-**🧠 Speaker Note:** This helps build historical foresight. Learning to spot patterns in hindsight strengthens your temporal vision looking forward.
+- Each design has converging and diverging paths  
+- Future paths include accelerations, stall-outs, reversals  
+<!-- Speaker note: Encourage students to imagine non-linear evolution. A choice might lead to unexpected complexity or surprising success—it’s not just forward vs. backward. -->
 
 ---
 
-📚 **Recommended Book:**  
-**_The Art of the Long View_ by Peter Schwartz**  
-> A foundational guide to scenario planning used by strategists and architects alike to anticipate change and design for it.
+# ⏳ Temporal Branching
 
-<!--
-Remind the audience: architecture isn’t just about designing good systems—it’s about designing good futures. Time is your second dimension.
+- Today’s anomalies may become tomorrow’s norms  
+- Risky configs, unsupported integrations, niche use cases  
+- All are potential signals of what’s next  
+<!-- Speaker note: Give examples—dark launches becoming default, cloud-native assumptions taking over, API edge behaviors forming core business flows. -->
+
+---
+
+# ⏳ Temporal Branching
+
+- Many architectural mistakes aren’t wrong—they’re premature  
+- Delay irreversible choices until sufficient context  
+- Optionality preserves adaptability  
+> “Architecture exists in motion—not in snapshots.”
+
+<!-- 
+Close by reinforcing that temporal awareness is a mindset.  
+Architects who map possibility rather than predict correctness enable systems that adapt over time—reducing technical debt and increasing strategic leverage.
 -->

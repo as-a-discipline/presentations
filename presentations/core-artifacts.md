@@ -8,6 +8,27 @@ paginate: true
 
 Architecture is not a document—it's a set of evolving expressions that guide teams, shape systems, and reduce risk. These are the critical artifacts that bring it to life.
 
+
+---
+!!!include(architecture/artifacts/_all.md)!!!
+
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ---
 
 ## Artifact Table of Contents
@@ -37,48 +58,6 @@ Architecture is not a document—it's a set of evolving expressions that guide t
 | 21   | Threat Model                                | Identify and mitigate system-level risks early                   |
 | 22   | Infrastructure Deployment Architecture      | Show physical or cloud resource layout and operational flow      |
 
----
-
-## 1. Architecture Decision Records (ADRs)
-
-* **Purpose**: Capture key decisions, context, trade-offs, and rationale.
-* **Audience**: Architects, devs, reviewers, governance bodies.
-* **Lifetime**: Permanent. Updated as decisions evolve.
-* **Why It Matters**: Prevents forgotten rationale. Makes assumptions explicit. Supports onboarding and retrospection.
-* **When to Create**: At every decision point or key trade-off.
-
----
-
-## ADR Example
-
-```text
-Title: Use PostgreSQL instead of MongoDB
-Status: Accepted
-Context: Need strong ACID transactions; current team has more SQL experience
-Decision: Chose PostgreSQL
-Consequences: Will need to migrate current schema
-```
-
----
-
-## 2. Core Use Case Model
-
-* **Purpose**: Identify and model the essential job-to-be-done.
-* **Audience**: Architects, PMs, UX, Engineering
-* **Lifetime**: Evolving with business goals.
-* **Why It Matters**: Focuses effort on what delivers primary value. Simplifies derivation of edge cases.
-* **When to Create**: During discovery and early framing.
-
----
-
-## Core Use Case Example
-
-```text
-Core Use Case: A customer pays an invoice
-Actors: Customer, Payment Gateway
-Steps: Submit Payment > Confirm > Issue Receipt
-Edge Cases: Failed card, expired session, retry flows
-```
 
 ---
 

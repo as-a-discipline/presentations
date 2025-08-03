@@ -1,75 +1,66 @@
 # 🏗️ Training Courageous Decision-Making
 
-Architecture demands action under uncertainty—not just analysis.  
-To build courage, practice making, reflecting on, and owning decisions.
+<!-- 
+This section reinforces that courage is not innate—it’s trainable.  
+The exercises below help architects strengthen decision-making muscles under pressure, ambiguity, and risk.
 
-<!--
-Introduce this slide by framing courage as a trainable skill, not a trait you’re born with. It grows through exposure to tough decisions, intentional retrospection, and safe environments to practice action under ambiguity.
+Ask the group: When was the last time you *chose clarity over comfort* in a technical decision?
 -->
 
 ---
 
-### 🧠 Decision Retrospective Replay
+# 🏗️ Training Courageous Decision-Making
 
-**Task:**  
-Choose a past architectural decision with real consequences.  
-Write out: context, trade-offs, ignored options, and outcome.  
-Ask yourself:  
-- What made this decision difficult?  
-- What part required courage?  
-- What would I do differently today?
+- Decision Retrospective Replay  
+<!-- 
+**Task:** Choose a past architectural decision with real consequences. Write out: context, trade-offs, ignored options, and outcome.  
+Ask: What made it difficult? What part required courage? What would I do differently now?
 
-**Purpose:**  
-Reflects how courage felt in action—whether it showed up as a choice made *despite* fear, or a moment where fear caused delay.  
-<!--
-Speaker note: This helps uncover personal bias—like conflict avoidance, risk aversion, or over-analysis. Courage often shows up through discomfort. This exercise sharpens awareness of that.
--->
+**Purpose:** Reflects how courage showed up—or didn’t. Reveals patterns like risk aversion or over-analysis.
+ -->
 
 ---
 
-### 🎭 Shadow Architect Roleplay
+# 🏗️ Training Courageous Decision-Making
 
-**Task:**  
-Sit in on a team’s decision-making meeting.  
-Privately document:
-- What decision would *you* make?
-- When would you make it?
-- Why?
+- Decision Retrospective Replay  
+- Shadow Architect Roleplay  
+<!-- 
+**Task:** Sit in on a decision meeting.  
+Privately document what you’d do, when, and why.  
+Compare to what actually happened and debrief.
 
-Afterward, compare your choices to what the team decided.  
-Debrief with a peer:  
-Were you too slow? Too bold?
-
-**Purpose:**  
-Builds your judgment muscle—without the pressure of being “right.”  
-<!--
-Speaker note: This lets you simulate decision ownership without disrupting the team. It builds your internal compass for timing, confidence, and clarity.
--->
+**Purpose:** Builds internal judgment without disrupting the team.  
+Simulates the pressures and timing of real-world calls.
+ -->
 
 ---
 
-### 🧘‍♂️ Non-Technical Exercise: Deliberate Discomfort
+# 🏗️ Training Courageous Decision-Making
 
-**Task:**  
-Pick a personal decision you've delayed (giving feedback, setting a boundary, etc.).  
-Make that decision within 24 hours.  
-Reflect:  
-- Why did I avoid it?  
-- What happened after?  
+<div style="float:right">
 
-**Purpose:**  
-Develops emotional tolerance for ambiguity, friction, and consequence.  
-<!--
-Speaker note: Courage is a whole-body act. Training it in low-stakes areas builds self-trust—so you’re more ready when the stakes are high in architecture.
--->
+![w:325](https://m.media-amazon.com/images/I/51j1P236E3L._SY445_SX342_QL70_FMwebp_.jpg)
 
----
+</div>
+
+- Decision Retrospective Replay  
+- Shadow Architect Roleplay  
+- Non-Technical Exercise: Deliberate Discomfort  
+<!-- 
+**Task:** Make a personal decision you’ve delayed (e.g., hard conversation). Reflect on why you avoided it and what changed afterward.
+
+**Purpose:** Builds emotional tolerance for ambiguity and consequence.  
+Courage trained outside work strengthens courage inside work.
+ -->
 
 > Courage is a skill.  
 > **Practice the discomfort now,**  
 > so you’re ready when it matters most.
 
-<!--
-Wrap by reinforcing that courage isn’t recklessness—it’s readiness.
-The more you practice owning decisions under uncertainty, the more you empower others to move with confidence too.
+<!-- 
+Wrap by emphasizing: Courage isn’t a trait—it’s readiness forged by practice.  
+By confronting small discomforts today, you prepare yourself to lead decisive change when the stakes are high.
+
+Next, we’ll explore how scenario foresight helps architects design choices that endure beyond the moment.
 -->

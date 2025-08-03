@@ -76,7 +76,7 @@ Architecture shows up in:
 - ... Software Engineering
 - ... Enterprise Systems
 - ... Discipline Specializations
-- ... System Plumbing**
+- ... System Plumbing
 <!-- 
 Integration glue: APIs, queues, events, pipelines, agents, proxies.
 -->
@@ -90,7 +90,7 @@ Architecture shows up in:
 - ... Software Engineering
 - ... Enterprise Systems
 - ... Discipline Specializations
-- ... System Plumbing**
+- ... System Plumbing
 
 > Architecture is the **skeletal system** of the enterprise—it connects, supports, and shapes every layer of the organism.
 

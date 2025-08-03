@@ -1,57 +1,102 @@
+# 🛡️ Training Risk Awareness & Threat Modeling
 
-# 🧠 Training Risk Awareness & Threat Modeling
-
-Architects don’t eliminate risk—they learn to navigate it.  
-These exercises train your eye for failure modes, misuse, and fragility before they become reality.
+<!-- 
+A risk-aware architect sees both what can go wrong and what must go right.  
+Training this mindset means learning to anticipate failure modes, question optimistic assumptions,  
+and surface structural vulnerabilities without falling into paralysis or fear.  
+Threat modeling is not just a security practice; it’s a way of thinking about architecture  
+as a set of trade-offs and exposures.
+-->
 
 ---
 
-### 🧩 Threat Model the Mundane
+# 🛡️ Training Risk Awareness & Threat Modeling
 
-- **Choose a simple, non-sensitive system.**
-E.g., to-do list app, calendar integration, conference tool.
-**🧠 Speaker Note:** Start with systems that feel “safe” to practice without emotional baggage or real-world consequence.
-
-- **Identify 3+ threat types:**  
+- Threat Model the Mundane
+<!--
+- Choose a familiar, non-sensitive system.  
+- Identify at least 3 threat types:  
   - Technical (e.g., data loss)  
-  - Behavioral (e.g., user misuse)  
-  - Contextual (e.g., bad integrations)
-**🧠 Speaker Note:** Make risk multi-dimensional—this builds pattern awareness beyond code.
-
-- **Create a basic STRIDE model.**  
-Even when security isn’t the focus.
-**🧠 Speaker Note:** STRIDE isn’t just for pen-testers. It’s a thinking tool—use it to surface where assumptions break down.
-
----
-
-### 🧨 Failure Premortem Exercise
-
-- **Imagine total system failure—1 year after launch.**
-Write the postmortem in advance.
-**🧠 Speaker Note:** Treat this like storytelling. Force your brain to fill in the gaps—what broke, why, and how it was missed?
-
-- **Trace back overlooked signals and risky assumptions.**
-What could you address now?
-**🧠 Speaker Note:** This flips the bias toward optimism. Good architecture includes rehearsing regret before it happens.
+  - Behavioral (e.g., misuse)  
+  - Contextual (e.g., bad integrations)  
+- Create a simple STRIDE model.  
+-->
+<!-- 
+Purpose: Builds pattern recognition for hidden risks and broadens the lens beyond security  
+to include architectural, operational, and business threats.
+-->
 
 ---
 
-### 🧠 Non-Technical: Red Team a Decision
+# 🛡️ Training Risk Awareness & Threat Modeling
 
-- **Pick a recent or upcoming non-technical decision.**
-Something with consequences: personal, team-related, financial.
-**🧠 Speaker Note:** You’ll see how hard it is to accept critique—and how useful it becomes when emotions are set aside.
-
-- **Invite a colleague to red team it—play devil’s advocate.**
-Then steelman their critique (don’t defend—improve it).
-**🧠 Speaker Note:** This trains emotional detachment from your choices and builds decision quality under fire.
+- Threat Model the Mundane
+- Failure Premortem Exercise
+<!-- 
+- Imagine your system fails catastrophically one year after launch.  
+- Write a detailed story:  
+  - What failed?  
+  - What was overlooked?  
+  - What signals were ignored?  
+- Reverse-engineer preventative actions for today.  
+-->
+<!-- 
+Purpose: Encourages proactive identification of systemic weaknesses and cultural blind spots.  
+Shifts risk thinking from reaction to anticipation.
+-->
 
 ---
+# 🛡️ Training Risk Awareness & Threat Modeling
 
-📚 **Recommended Book:**  
-**_Thinking in Bets_ by Annie Duke**  
-> Reframes decisions as probabilistic bets—not certainties. Ideal for learning how to manage risk over time.
+- Threat Model the Mundane
+- Failure Premortem Exercise
+- Non-Technical: Red Team a Decision
+<!-- 
+- Choose a non-technical decision (e.g., personal, organizational, or financial).  
+- Invite someone to "red team" it—play devil’s advocate.  
+- Steelman their critique: strengthen it, don’t defend.  
+-->
+
+<!-- 
+Purpose: Trains emotional separation from decisions and cultivates rigorous reasoning under challenge.  
+This exercise strengthens decision quality by teaching how to refine ideas under scrutiny.
+-->
+
+---
+# 🛡️ Training Risk Awareness & Threat Modeling
+
+<div style="float:right"> 
+
+![w:325](https://m.media-amazon.com/images/I/41CueL9WfHL._SY445_SX342_QL70_FMwebp_.jpg) 
+
+</div>
+
+- Threat Model the Mundane
+- Failure Premortem Exercise
+- Non-Technical: Red Team a Decision
+<!-- 
+- Choose a non-technical decision (e.g., personal, organizational, or financial).  
+- Invite someone to "red team" it—play devil’s advocate.  
+- Steelman their critique: strengthen it, don’t defend.  
+-->
+
+<!-- 
+Purpose: Trains emotional separation from decisions and cultivates rigorous reasoning under challenge.  
+This exercise strengthens decision quality by teaching how to refine ideas under scrutiny.
+-->
+
+> Resilience isn’t optimism—it’s practiced paranoia.  
+> **Great architects don’t just model success—they rehearse failure.**
+
+<!-- 
+Close by reinforcing that risk is the terrain, not the exception.  
+Navigating that terrain with clarity, humility, and confidence is what sets architects apart.
+-->
 
 <!--
-Close the session by reminding the audience: resilient architecture doesn’t emerge from optimism. It emerges from rehearsed discomfort and principled paranoia.
+Recommended Book:
+Title: Thinking in Bets by Annie Duke
+Purpose: Reframes decisions as probabilistic bets rather than binary choices ideal for improving judgment under uncertainty and managing risk over time.
 -->
+
+

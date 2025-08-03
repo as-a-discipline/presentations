@@ -26,7 +26,7 @@ bespoke:
   transition: true
 html: true
 template:	bespoke
-theme: ../.themes/marpstyle/jobs.css
+theme: ../.themes/theme.css
 
 #engine	string | Class | Function	--engine	Specify Marpit based engine
 #inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS

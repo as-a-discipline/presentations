@@ -86,6 +86,12 @@ This builds inner resilience and softens overconfidence.
 ---
 # 🧘 Training Meta-Cognition
 
+<div style="float:right">
+
+![w:325](https://m.media-amazon.com/images/I/41wI53OEpCL._SY445_SX342_.jpg)
+
+</div>
+
 Build self-awareness with **deliberate mental training**:
 
 - Architecture Journal Routine
@@ -105,5 +111,9 @@ Ask the group:
 
 Remind: Architecture isn’t just practiced through code or design—it’s practiced through how we *think about* our thinking.
 
-Preview: Next we’ll explore how these habits support architectural kata, critique, and developing shared team heuristics.
+---
+
+Recommended Book:
+Title: Thinking, Fast and Slow by Daniel Kahneman
+Purpose: Explores the dual systems of thought (intuitive vs. reflective) and their role in decision-making. A foundational book for understanding meta-cognition, cognitive bias, and reflective judgment
 -->

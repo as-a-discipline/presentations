@@ -31,10 +31,11 @@ This workshop is designed for experienced developers aiming to expand their infl
 
 # Workshop Agenda
 
-1. **What is Software Architecture?**
-2. **The Role of the Architect**
-3. **Thinking Like an Architect**
-4. **Training The Architect’s Mindset**
+1. **What is Software Architecture?**     ⏱️45-60
+2. **The Role of the Architect**          ⏱️30
+3. **Thinking Like an Architect**         ⏱️30
+4. **Training The Architect’s Mindset**   ⏱️60-90
+5. **Architectual Artifacts**             ⏱️30
 5. **Understanding the Problem**
 6. **Communicating Architecture**
 7. **Architectural Katas**
@@ -46,7 +47,7 @@ This workshop is designed for experienced developers aiming to expand their infl
 
 # SECTION #1
 # What is Software Architecture?
-
+### ⏱️ 45 - 60 minutes 
 
 <!-- 
 This is the section introduction slide to topic. Reinforce the title: with something like 'Defining Software Architecture.' 
@@ -68,6 +69,7 @@ Ask the room: What does architecture mean to you?
 
 # SECTION #2
 # The Role of the Architect
+## ⏱️ 30 minutes 
 
 <!-- presenter notes
 Ask: What does 'architect' mean in your organization? Set expectations that we’ll break down what architects actually do—and what makes the role indispensable in modern, adaptive enterprises.
@@ -84,6 +86,7 @@ The architect’s role is often misunderstood, frequently conflated with that of
 
 # SECTION #3
 # Thinking like an architect
+## ⏱️ 30 minutes 
 
 <!-- presenter notes
 This slide transitions from the external outputs of architecture to the internal discipline of architectural thinking.  
@@ -102,6 +105,7 @@ This is the bridge from practice to perspectiv
 
 # SECTION #4
 # Training The Architect’s Mindset
+## ⏱️ 60 - 90 minutes 
 
 <!-- presenter notes
  Just as the systems architects build are inherently complex, so too is the mindset required to design them. 
@@ -115,8 +119,20 @@ This is the bridge from practice to perspectiv
 
 
 ---
-!!!include(architecture/training-the-mindset/_all.md)!!!
+!!!include(architecture/training-the-mindset/_workshop.md)!!!
 
+
+
+---
+<!-- _class: lead -->
+
+# SECTION #5
+# Architectual Artifacts
+## ⏱️ 30 minutes 
+
+
+---
+!!!include(architecture/artifacts/_workshop.md)!!!
 
 
 
