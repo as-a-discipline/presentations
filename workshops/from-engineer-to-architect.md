@@ -222,12 +222,11 @@ each system will be sold to consumers (small families), but the company expects 
 <!-- _class: lead -->
 
 # SECTION #9
-# Wrapping Up
-## ⏱️ 15 minutes 
+# The Journey to Architect
+## ⏱️ 30 minutes 
 
 ---
-<!-- This page is intentionally left; we may choose to add content here in the future --> 
-
+!!!include(engineer-to-architect/_workshop.md)!!!
 
 ---
 !!!include(common/thank-you.md)!!!
