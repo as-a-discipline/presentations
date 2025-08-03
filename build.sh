@@ -16,4 +16,4 @@ make build FILE=the-role-of-the-architect TYPE=presentations
 
 make build TYPE=workshops FILE=from-engineer-to-architect 
 
-copy index.html out/index.html
+cp index.html out/index.html
