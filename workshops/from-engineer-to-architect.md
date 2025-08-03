@@ -36,10 +36,10 @@ This workshop is designed for experienced developers aiming to expand their infl
 3. **Thinking Like an Architect**         ⏱️30
 4. **Training The Architect’s Mindset**   ⏱️60-90
 5. **Architectual Artifacts**             ⏱️30
-5. **Understanding the Problem**
-6. **Communicating Architecture**
+5. **Contract Design**                    ⏱️30                   
 7. **Architectural Katas**
-8. **Feedback & Growth**
+8. **Kata Lab**
+9. **Wrapping up**
 
 ---
 
@@ -134,11 +134,15 @@ This is the bridge from practice to perspectiv
 ---
 !!!include(architecture/artifacts/_workshop.md)!!!
 
+---
+<!-- _class: lead -->
 
+# SECTION #6
+# Contract Design
+## ⏱️ 30 minutes 
 
-
-
-
+---
+!!!include(architecture/contracts/_workshop.md)!!!
 
 
 
