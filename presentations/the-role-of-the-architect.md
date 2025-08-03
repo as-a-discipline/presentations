@@ -15,31 +15,7 @@ The architect’s role is often misunderstood, frequently conflated with that of
 -->
 
 ---
-!!!include(architecture/defining-the-role.md)!!!
-
----
-!!!include(architecture/influence-without-authority.md)!!!
-
----
-!!!include(architecture/decision-making-responsibilities.md)!!!
-
----
-!!!include(architecture/stewardship-over-time.md)!!!
-
----
-!!!include(architecture/owning-the-outcomes.md)!!!
-
----
-!!!include(architecture/architect-as-educator.md)!!!
-
----
-!!!include(architecture/growing-architects.md)!!!
-
----
-!!!include(architecture/role-anti-patterns.md)!!!
-
----
-!!!include(architecture/design-vs-implementation.md)!!!
+!!!include(architecture/role-of-the-architect/_all.md)!!!
 
 ---
 !!!include(common/thank-you.md)!!!

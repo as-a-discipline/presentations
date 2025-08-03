@@ -33,7 +33,7 @@ This workshop is designed for experienced developers aiming to expand their infl
 
 1. **What is Software Architecture?**
 2. **The Role of the Architect**
-3. Thinking Like an Architect
+3. **Thinking Like an Architect**
 4. **Training The Architect’s Mindset**
 5. **Understanding the Problem**
 6. **Communicating Architecture**
@@ -59,70 +59,7 @@ Ask the room: What does architecture mean to you?
 -->
 
 ---
-!!!include(architecture/diverse-definitions.md)!!!
-
----
-!!!include(architecture/what-is-architecture.md)!!!
-
----
-!!!include(architecture/evolutionary-architecture.md)!!!
-
----
-!!!include(architecture/a-disciplined-practice.md)!!!
-
----
-!!!include(architecture/framework.md)!!!
-
----
-!!!include(architecture/framework-tier-1.md)!!!
-
----
-!!!include(architecture/framework-universal-function.md)!!!
-
----
-!!!include(architecture/framework-strategic-intent.md)!!!
-
----
-!!!include(architecture/framework-navigating-trade-offs.md)!!!
-
----
-!!!include(architecture/framework-tier-2.md)!!!
-
----
-!!!include(architecture/framework-scaling-factor.md)!!!
-
----
-!!!include(architecture/framework-communication-medium.md)!!!
-
----
-!!!include(architecture/framework-system-of-governance.md)!!!
-
----
-!!!include(architecture/framework-tier-3.md)!!!
-
----
-!!!include(architecture/framework-context-software.md)!!!
-
----
-!!!include(architecture/framework-context-enterprise.md)!!!
-
----
-!!!include(architecture/framework-context-plumbing.md)!!!
-
----
-!!!include(architecture/framework-tier-4.md)!!!
-
----
-!!!include(architecture/framework-operations-and-observability.md)!!!
-
----
-!!!include(architecture/framework-incident-response.md)!!!
-
----
-!!!include(architecture/framework-adaptive-enterprise.md)!!!
-
----
-!!!include(architecture/framework.md)!!!
+!!!include(architecture/what-is-architecture/_workshop.md)!!!
 
 
 ---
@@ -139,32 +76,7 @@ The architect’s role is often misunderstood, frequently conflated with that of
 -->
 
 ---
-!!!include(architecture/defining-the-role.md)!!!
-
----
-!!!include(architecture/influence-without-authority.md)!!!
-
----
-!!!include(architecture/decision-making-responsibilities.md)!!!
-
----
-!!!include(architecture/stewardship-over-time.md)!!!
-
----
-!!!include(architecture/owning-the-outcomes.md)!!!
-
----
-!!!include(architecture/architect-as-educator.md)!!!
-
----
-!!!include(architecture/growing-architects.md)!!!
-
----
-!!!include(architecture/role-anti-patterns.md)!!!
-
----
-!!!include(architecture/design-vs-implementation.md)!!!
-
+!!!include(architecture/role-of-the-architect/_workshop.md)!!!
 
 ---
 
@@ -182,19 +94,32 @@ This is the bridge from practice to perspectiv
 -->
 
 ---
-!!!include(architecture/thinking-like-an-architect.md)!!!
+!!!include(architecture/thinking-like-an-architect/_workshop.md)!!!
 
 ---
-!!!include(architecture/embracing-ambiguity.md)!!!
+
+<!-- _class: lead -->
+
+# SECTION #4
+# Training The Architect’s Mindset
+
+<!-- presenter notes
+ Just as the systems architects build are inherently complex, so too is the mindset required to design them. 
+ 
+ Architects must navigate a multidimensional cognitive terrain engaging not with a single mode of thinking, but with many. 
+ 
+ From systems awareness to ethical foresight, from scenario modeling to empathetic reasoning, the architect must be able to shift fluently across mental models depending on the situation.
+ 
+  This is not just a skillset; it’s a form of adaptive intelligence rooted in situational fluency.
+-->
+
 
 ---
-!!!include(architecture/uncovering-hidden-complexity.md)!!!
+!!!include(architecture/training-the-mindset/_all.md)!!!
 
----
-!!!include(architecture/mental-models.md)!!!
 
----
-!!!include(architecture/systems-thinking.md)!!!
+
+
 
 
 

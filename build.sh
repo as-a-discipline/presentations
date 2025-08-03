@@ -15,3 +15,5 @@ make build FILE=the-role-of-the-architect TYPE=presentations
 #make build FILE=transitioning-from-engineer-to-architect TYPE=presentations
 
 make build TYPE=workshops FILE=from-engineer-to-architect 
+
+copy index.html out/index.html

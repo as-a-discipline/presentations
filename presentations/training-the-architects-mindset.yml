@@ -1,0 +1,23 @@
+allowLocalFiles: true
+author: George Westwater
+title: Training The Architect's Mindset
+description: |
+  
+
+keywords:
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../.theme/default.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL
