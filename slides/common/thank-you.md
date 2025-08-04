@@ -7,4 +7,4 @@
 ✅ Reflections?
 ✅ Coffee break!
 
-![bg right](./images/common.who-am-i.png)
+![bg right](./images/site-qr.png)
