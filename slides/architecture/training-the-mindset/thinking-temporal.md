@@ -16,7 +16,7 @@ This section builds the mental model of scenario foresight—enabling architects
 
 # ⏳ Temporal Branching
 
-- Each design has converging and diverging paths  
+- Architecture exists in motion, not in snapshots  
 - Future paths include accelerations, stall-outs, reversals  
 <!-- Speaker note: Encourage students to imagine non-linear evolution. A choice might lead to unexpected complexity or surprising success—it’s not just forward vs. backward. -->
 
@@ -24,8 +24,8 @@ This section builds the mental model of scenario foresight—enabling architects
 
 # ⏳ Temporal Branching
 
-- Today’s anomalies may become tomorrow’s norms  
-- Risky configs, unsupported integrations, niche use cases  
+- Architecture exists in motion, not in snapshots  
+- Future paths include accelerations, stall-outs, reversals  
 - All are potential signals of what’s next  
 <!-- Speaker note: Give examples—dark launches becoming default, cloud-native assumptions taking over, API edge behaviors forming core business flows. -->
 
@@ -33,9 +33,9 @@ This section builds the mental model of scenario foresight—enabling architects
 
 # ⏳ Temporal Branching
 
-- Many architectural mistakes aren’t wrong—they’re premature  
-- Delay irreversible choices until sufficient context  
-- Optionality preserves adaptability  
+- Architecture exists in motion, not in snapshots  
+- Future paths include accelerations, stall-outs, reversals  
+- All are potential signals of what’s next  
 > “Architecture exists in motion—not in snapshots.”
 
 <!-- 
