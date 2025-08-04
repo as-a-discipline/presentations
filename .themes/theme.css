@@ -1693,6 +1693,13 @@ section:where(.lead) table {
 section:where(.small) {
   font-size: 1em;
 }
+section:where(.smaller) {
+  font-size: 0.8em;
+}
+section:where(.smaller) p {
+  font-size: 0.8em;
+  line-height: 1;
+}
 
 tr:nth-child(even) {
   background-color: #f3f4f6 !important;

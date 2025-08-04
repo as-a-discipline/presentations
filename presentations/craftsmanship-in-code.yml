@@ -1,0 +1,24 @@
+allowLocalFiles: true
+author: George Westwater
+title: Craftsmanship in Code - Patterns for Sustainable Software
+description: |
+  Creating durable and maintainable software requires more than just clean code—it demands strategic architecture and 
+  design patterns that stand the test of time. In this session, we'll explore the role of the Anti-Corruption Layer in 
+  preserving system integrity and maintaining separation between legacy systems and new architectures. We'll dive deep 
+  into patterns for reuse, focusing on how to architect for flexibility across different programming languages, including Go, C#, and Python.  
+
+lang: en
+bespoke:
+  osc: true
+  progress: true
+  transition: true
+html: true
+template:	bespoke
+theme: ../.themes/theme.css
+
+#engine	string | Class | Function	--engine	Specify Marpit based engine
+#inputDir	string	--input-dir -I	The base directory to find markdown and theme CSS
+#output	string	--output -o	Output file path (or directory when input-dir is passed)
+#theme	string	--theme	Override theme by name or CSS file
+#themeSet	string | string[]	--theme-set	Path to additional theme CSS files
+#url	string	--url	Define canonical URL

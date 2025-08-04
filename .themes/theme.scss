@@ -179,6 +179,15 @@ section {
   &:where(.small) {
     font-size: 1.0em;
   }
+
+  &:where(.smaller) {
+    font-size: 0.8em;
+
+    p {
+      font-size: 0.8em;
+      line-height: 1.0;
+    }
+  }
   
 
 }
